@@ -75,7 +75,7 @@ def roi_xy(point, roi_size):
     if not W % 2:
         W += 1
     if not H % 2:
-        H = H+1
+        H += 1
 
     x_start = point[0] - W//2
     y_start = point[1] - H//2
